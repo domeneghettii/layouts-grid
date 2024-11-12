@@ -64,3 +64,19 @@ body {
     background-color: black;
 }
 
+@media (max-width: 768) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "header"
+        "navbar"
+        "main-banner"
+        "main-content"
+        "left-sidebar"
+        "right-sidebar"
+        "gallery"
+        "featured-articles"
+        "footer";
+    }
+
+}
